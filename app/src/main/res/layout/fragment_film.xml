@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/sedang_tayang_x1f60d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginStart="-20dp"
+            android:layout_marginBottom="10dp"
+            tools:listitem="@layout/list_item_film_horizontal"
+            android:id="@+id/rvNowPlaying" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trending Hari Ini"
+                android:id="@+id/tvTrendingHariIni"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginStart="-20dp"
+                android:layout_marginBottom="10dp"
+                tools:listitem="@layout/list_item_film_horizontal"
+                android:id="@+id/rvTrendingHariIni"/>
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending Minggu Ini"
+            android:id="@+id/tvTrendingMingguIni"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginStart="-20dp"
+            android:layout_marginBottom="10dp"
+            tools:listitem="@layout/list_item_film_horizontal"
+            android:id="@+id/rvTrendingMingguIni"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_search"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:id="@+id/searchFilm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:iconifiedByDefault="false"
+                android:paddingStart="-10dp"
+                android:searchIcon="@drawable/ic_search"
+                android:theme="@style/SearchView"
+                android:queryBackground="@android:color/transparent"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/rekomendasiFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/rekomendasi_film"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvFilmRecommend"
+            tools:listitem="@layout/list_item_film"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

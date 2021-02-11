@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:id="@+id/relative">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Aplikasi"
+        android:id="@+id/detail"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/detail"
+        android:layout_marginStart="50dp"
+        android:text="x"
+        android:id="@+id/close1"
+        android:textSize="20sp"
+        android:background="@drawable/bg_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitur Aplikasi"
+        android:layout_below="@id/detail"
+        android:layout_marginStart="5dp"
+        android:textSize="18sp"
+        android:id="@+id/fitur"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="afda"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/fitur"
+        android:id="@+id/kejelasan"
+        android:layout_marginStart="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programmer"
+        android:id="@+id/pembuat"
+        android:layout_below="@id/kejelasan"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:id="@+id/nama_pembuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_developer"
+        android:layout_below="@id/pembuat"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/design"
+        android:text="Designer UI Aplikasi"
+        android:layout_below="@+id/nama_pembuat"
+        android:textStyle="bold"
+        android:textSize="18sp"
+       />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ronald Sinaga"
+        android:textSize="15sp"
+        android:id="@+id/nama_design" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumber Data Aplikasi"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/nama_design"
+        android:textStyle="bold"
+        android:id="@+id/data_sumber"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Movie DB"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/data_sumber"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahasa Pemrograman"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/data"
+        android:id="@+id/nama_bahasa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:textSize="15sp"
+        android:layout_below="@id/nama_bahasa"
+        android:id="@+id/bahasa"
+        android:layout_marginStart="10dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/bahasa"
+        android:id="@+id/OK"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_rounded"/>
+</RelativeLayout>

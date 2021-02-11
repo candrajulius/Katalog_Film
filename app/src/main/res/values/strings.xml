@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="rating">Rating :</string>
+    <string name="nama_developer">Candra Julius Sinaga</string>
+    <string name="tidak_ada_film_favorite">Tidak ada film favorite</string>
+    <string name="sedang_tayang_x1f60d">Sedang Tayang &#x1F60D; </string>
+    <string name="rekomendasi_film">Rekomendasi Film</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="pengingat_harian">Pengingat Harian</string>
+    <string name="pengingat_jadwal_rilis">Pengingat Jadwal Rilis</string>
+    <string name="developer">Developer</string>
+    <string name="whatssapp_developer">Whatssapp Developer</string>
+    <string name="detail_aplikasi">Detail Aplikasi</string>
+    <string name="tanggal_rilis">Tanggal Rilis :</string>
+    <string name="kepopuleran">Kepopuleran :</string>
+    <string name="storyline">STORYLINE :</string>
+    <string name="setting">Setting</string>
+    <string name="search_film">Cari disini</string>
+    <string name="webView">Web VIew</string>
+</resources>
