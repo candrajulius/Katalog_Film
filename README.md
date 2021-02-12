@@ -5,11 +5,12 @@
 * Show Movie And TV Show
 * Show Detail Movie And TV Show
 * Show Detail Actor And Crew
-* Show Detail Actor And Crew
+* Show Actor And Crew
 * Release Notification Movie And TV Show
+* 
 
 
-## Libarary Used
+## Library Used
 * [Glide](https://github.com/bumptech/glide) - Image Fetching
 * [Android Fast Networking](https://github.com/amitshekhariitbhu/Fast-Android-Networking) - Service
 * [Bubble Navigation](https://github.com/gauravk95/bubble-navigation) - Navigasi
