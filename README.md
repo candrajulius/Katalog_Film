@@ -7,7 +7,6 @@
 * Show Detail Actor And Crew
 * Show Actor And Crew
 * Release Notification Movie And TV Show
-* 
 
 
 ## Library Used
