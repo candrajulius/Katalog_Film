@@ -18,7 +18,7 @@
 * [Favorite Button](https://github.com/IvBaranov/MaterialFavoriteButton) - Favorte Button
 
 ## Developer
-* [Candra Julius Sinaga](https://github.com/candrajulius)
+* [Candra Julius Sinaga](https://code.cjsflow.com/)
 
 ## Download Version
 [Download Here Version 1.0](https://github.com/candrajulius/Katalog-_Film/releases/tag/v1.0)
